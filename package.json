@@ -1,0 +1,36 @@
+{
+  "name": "timeface",
+  "version": "1.0.0",
+  "description": "A library to convert date objects into the corresponding emoji",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "emoji",
+    "utf",
+    "unicode",
+    "time",
+    "icons"
+  ],
+  "author": "Guilherme Zühlke O'Connor",
+  "license": "MIT",
+  "dependencies": {
+    "left-pad": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guioconnor/timeface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guioconnor/timeface/issues"
+  },
+  "homepage": "https://github.com/guioconnor/timeface#readme"
+}
